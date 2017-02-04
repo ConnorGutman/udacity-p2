@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-family: $heading-font;
+}
+h4,
+p,
+a,
+li {
+  font-family: $base-font;
+}
+h1,
+h2,
+h4,
+p,
+a {
+  color: $dark;
+}
+h3 {
+  color: $light;
+}
+a {
+  text-decoration: none;
+  p {
+    color: $highlight;
+  }
+  &:hover {
+    text-decoration: none;
+    p {
+      color: $light;
+      -webkit-transition: color 0.5s ease;
+      -moz-transition: color 0.5s ease;
+      -o-transition: color 0.5s ease;
+      transition: color 0.5s ease;
+    }
+  }
+}
+.navbar-text {
+  h1 {
+    text-transform: uppercase;
+  }
+}
+.work-header {
+  padding-left: 15px;
+}

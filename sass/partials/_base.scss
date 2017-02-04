@@ -1,0 +1,10 @@
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+// Base Font
+$base-font: 'Roboto', sans-serif;
+// Fixed Font
+$heading-font: 'Playfair Display', serif;
+//Import modules
+@import "../modules/_all";
